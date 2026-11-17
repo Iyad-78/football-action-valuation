@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+.env
+
+# Editors / operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local data and trained artifacts
+data/raw/
+data/processed/
+artifacts/models/
+artifacts/evaluation/
+artifacts/reports/
+outputs/
+work/
+
+# Notebook state
+.ipynb_checkpoints/
